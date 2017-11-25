@@ -8,7 +8,7 @@
         "authurl": "/user/services/profile/checkcompanymember",
         "authType": "pin",
         "userContentLogin": true,
-        "productUrl": "http://localhost:1841/resources/data/wgb/products.json"
+        "productUrl": "https://raw.githubusercontent.com/gitvaapdev/TestDataDump/master/wgb/products.json"
     }, {
         "name": "Admin",
         "icon": "https://www.itsolution.com.sg/wp-content/uploads/2015/03/admin-icon-2.png",
