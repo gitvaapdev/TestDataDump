@@ -1,0 +1,16 @@
+{
+    "data": [{
+        "key": "Clothing",
+        "value": "Clothing"
+    }, {
+        "key": "Furniture",
+        "value": "Furniture"
+    }, {
+        "key": "Jewelry",
+        "value": "Jewelry"
+    }, {
+        "key": "Monetary",
+        "value": "Monetary"
+    }],
+    "TotalCount": 4
+}

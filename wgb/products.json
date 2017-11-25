@@ -1,0 +1,55 @@
+[{
+    "icon": "userTimeEntry",
+    "name": "Time Entry",
+    "view": "volunteernewtimeentrymain",
+    "roles": ["Volunteer"],
+    "chargeCode": {
+        "url": "http://localhost:1841/resources/data/wgb/chargeCode.json"
+    },
+    "all_details": {
+        "url": "/user/services/profile/getcompanymembertimecard",
+        "params": ["volunteerEmail", "clientId", "productName"]
+    },
+    "add_details": {
+        "url": "/user/services/profile/addcompanymembertimecard",
+        "params": ["volunteerName", "volunteerEmail", "checkDate", "chargeCode", "checkInTime", "clientId", "productName"]
+    },
+    "update_details": {
+        "url": "/user/services/profile/updateCompanyMemberTimecard",
+        "params": ["volunteerName", "volunteerEmail", "checkDate", "chargeCode", "checkInTime", "clientId", "productName"]
+    }
+}, {
+    "icon": "volunteerRegistration",
+    "name": "Volunteer Registration",
+    "view": "volunteerregistationmainview",
+    "roles": ["Volunteer"],
+    "isVolunteerView": true,
+    "all_details": {
+        "url": "/user/services/profile/geteventcalendar",
+        "method": "POST"
+    },
+    "all_registered_users": {
+        "url": "/user/services/profile/getregistervolunteerforanevent"
+    },
+    "cancel_registration": {
+        "url": "/user/services/profile/canceleventregistration"
+    },
+    "add_volunteer": {
+        "url": "/user/services/addNotAuthenticatedVolunteerEvent"
+    }
+
+}, {
+    "icon": "donorcontributon",
+    "name": "Donor Contribution",
+    "view": "donorcontributionmainview",
+    "chargeCode": {
+        "url": "http://localhost:1841/resources/data/wgb/donationChargeCode.json"
+    },
+    "addDonation": {
+        "url": "/user/services/profile/adddonation"
+    },
+    "donationList": {
+        "url": "/user/services/profile/getdonationinfo"
+    },
+    "roles": ["Donor"]
+}]
