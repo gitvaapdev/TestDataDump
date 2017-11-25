@@ -1,0 +1,18 @@
+[{
+    "productCode": "WGBMAPP",
+    "productId": "f98bac47-ef68-4ffd-b4e9-b1ecde9c5ac5",
+    "isVolunteer": true,
+    "roles": [{
+        "name": "Donar / Volunteer",
+        "icon": "http://www.brhfoundation.org/wp-content/uploads/2014/10/Volunteer-Icon.png",
+        "authurl": "/user/services/profile/checkcompanymember",
+        "authType": "pin",
+        "userContentLogin": true,
+        "productUrl": "http://localhost:1841/resources/data/wgb/products.json"
+    }, {
+        "name": "Admin",
+        "icon": "https://www.itsolution.com.sg/wp-content/uploads/2015/03/admin-icon-2.png",
+        "authType": "regular"
+    }],
+    "baseUrl": "https://vaap-vbe.vaaptech.com"
+}]
