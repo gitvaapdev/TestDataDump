@@ -4,7 +4,7 @@
     "view": "volunteernewtimeentrymain",
     "roles": ["Volunteer"],
     "chargeCode": {
-        "url": "http://localhost:1841/resources/data/wgb/chargeCode.json"
+        "url": "https://raw.githubusercontent.com/gitvaapdev/TestDataDump/master/wgb/chargeCode.json"
     },
     "all_details": {
         "url": "/user/services/profile/getcompanymembertimecard",
@@ -43,7 +43,7 @@
     "name": "Donor Contribution",
     "view": "donorcontributionmainview",
     "chargeCode": {
-        "url": "http://localhost:1841/resources/data/wgb/donationChargeCode.json"
+        "url": "https://raw.githubusercontent.com/gitvaapdev/TestDataDump/master/wgb/donationChargeCode.json"
     },
     "addDonation": {
         "url": "/user/services/profile/adddonation"
