@@ -18,5 +18,7 @@
 },{
     "productCode": "BOMAPP",
     "productId": "507bd5b6-763f-4a93-8dfe-18b8e38e0a6f",
-    "baseUrl": "https://vaap-vbe.vaaptech.com"
+    "baseUrl": "https://vaap-vbe.vaaptech.com",
+    "productUrl": "https://raw.githubusercontent.com/gitvaapdev/TestDataDump/master/bomapp/products.json",
+    "authType": "regular"
 }]
