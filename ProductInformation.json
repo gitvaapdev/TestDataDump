@@ -15,4 +15,8 @@
         "authType": "regular"
     }],
     "baseUrl": "https://vaap-vbe.vaaptech.com"
+},{
+    "productCode": "BOMAPP",
+    "productId": "507bd5b6-763f-4a93-8dfe-18b8e38e0a6f",
+    "baseUrl": "https://vaap-vbe.vaaptech.com"
 }]
